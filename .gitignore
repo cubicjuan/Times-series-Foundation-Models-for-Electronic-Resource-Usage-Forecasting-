@@ -1,0 +1,50 @@
+# Private data (DO NOT upload)
+data/
+*.parquet
+*.csv
+*.xlsx
+*.xls
+*.ckpt
+*.pkl
+
+# Virtual environments
+.venv/
+.venv_*/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# Model outputs (except templates)
+outputs/
+outputs_*/
+logs/
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+~$*
+.~lock.*
+*.tmp
+*.bak
+
+# Locally downloaded models
+models_cache/
+hf_cache/

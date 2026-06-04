@@ -1,0 +1,19 @@
+# Isolated environment for TabPFN-TS (.venv_tabpfn)
+# Python 3.10.8
+
+# Core
+numpy>=1.26,<2.0
+pandas>=2.1
+pyarrow>=15.0
+
+# TabPFN for time series
+tabpfn-time-series>=0.1
+tabpfn>=2.0
+
+# Backend
+torch>=2.2
+
+# Utilities
+tqdm>=4.66
+jupyter>=1.0
+ipykernel>=6.29

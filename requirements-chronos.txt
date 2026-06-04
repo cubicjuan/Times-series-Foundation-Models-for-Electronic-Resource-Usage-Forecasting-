@@ -1,0 +1,22 @@
+# Isolated environment for Chronos (.venv_chronos)
+# Reason: chronos-forecasting has dependencies that conflict
+# with PyCaret in the main environment.
+# Python 3.10.8
+
+# Core
+numpy>=1.26,<2.0
+pandas>=2.1
+pyarrow>=15.0
+
+# Chronos (Amazon)
+chronos-forecasting>=1.4
+
+# Backend
+torch>=2.2
+transformers>=4.40
+accelerate>=0.30
+
+# Utilities
+tqdm>=4.66
+jupyter>=1.0
+ipykernel>=6.29

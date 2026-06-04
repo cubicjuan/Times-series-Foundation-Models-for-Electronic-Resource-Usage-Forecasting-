@@ -1,0 +1,43 @@
+# Main environment (.venv) - TimesFM, PyCaret, general analysis
+# Python 3.10.8
+
+# Numerical core
+numpy>=1.26,<2.0
+pandas>=2.1
+pyarrow>=15.0
+scipy>=1.11
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# Classical machine learning
+scikit-learn>=1.4
+
+# Foundation forecasting - TimesFM
+timesfm[xreg]>=2.0.0
+jax>=0.4.30
+jaxlib>=0.4.30
+
+# Deep learning (PyTorch with CUDA)
+torch>=2.2
+torchvision>=0.17
+
+# Hugging Face
+huggingface-hub>=0.23
+transformers>=4.40
+
+# AutoML for time series
+pycaret[time-series]>=3.3
+
+# Statistical tests
+statsmodels>=0.14
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.29
+nbconvert>=7.16
+
+# Utilities
+tqdm>=4.66
+python-dateutil>=2.9

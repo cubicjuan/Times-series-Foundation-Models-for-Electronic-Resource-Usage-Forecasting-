@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or its documentation, please cite it as below."
+title: "Forecasting Electronic-Resource Usage with Foundation Models"
+abstract: >-
+  Templates and reference implementation for forecasting the monthly usage of
+  academic databases (COUNTER 5, Total Item Requests) with time-series
+  foundation models (TimesFM, Chronos-Bolt, TabPFN-TS), compared against
+  classical AutoML (PyCaret) and a Seasonal Naive baseline, with a clustering
+  and recommendation layer for subscription decisions in a university-library
+  consortium.
+type: software
+authors:
+  - family-names: "Reyes Meneses"
+    given-names: "Juan"
+    email: juanreyesmeneses@gmail.com
+keywords:
+  - time-series forecasting
+  - foundation models
+  - TimesFM
+  - Chronos
+  - TabPFN
+  - electronic resources
+  - COUNTER
+  - academic libraries
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-06-04"
